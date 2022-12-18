@@ -73,9 +73,17 @@ const Task = ({ id, title, description, asDone, dispatchEditTask }) => {
                         <input type="radio" name="newAsDone" id="newTrueCheck" /><span>true</span>
                         <input type="radio" name="newAsDone" id="newFalseCheck" /><span>false</span>
 
-                    </div>
-                    <button className="btn btn-success btn-sm" onClick={Save}>Click here to save</button>
+                    </div><br />
 
+                    <div className="col">
+
+                        <button className="btn btn-success btn-sm" onClick={Save}>Click here to save</button><br />
+                    </div>
+
+                    <div className="col">
+
+                        <button className="btn btn-danger  btn-sm" id="buttonCancel" onClick={() => setEdit(true)}>Cancel</button>
+                    </div>
                 </div>
             </div>
 
