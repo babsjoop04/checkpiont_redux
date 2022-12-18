@@ -1,0 +1,16 @@
+#TodoApp {
+  border: 15px ridge #0077b6;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #d2dce3, #f9ffff);
+  box-shadow: 8px 8px 16px #c8d2d9, -8px -8px 16px #ffffff;
+}
+#filter {
+  border: 5px solid #d2dce3;
+}
+#showTasks > div {
+  border: 5px solid #d2dce3;
+}
+#body {
+  background: #0077b6;
+  
+}
